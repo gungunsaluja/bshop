@@ -1,0 +1,12 @@
+.product-item{
+    /* height: fit-content; */
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    border:1px solid red;
+    padding: 2rem;
+    
+    background-color: green;
+    box-shadow: 3px 4px 5px red;
+}

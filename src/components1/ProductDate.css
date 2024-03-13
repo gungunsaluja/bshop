@@ -1,0 +1,12 @@
+.product-date{
+    background-color: black;
+    display: flex;
+    color:white;
+    flex-direction: column;
+    justify-content: center;
+justify-content: space-between;
+    text-align: center;
+    width: 9rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 3px 5px ;
+}

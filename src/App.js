@@ -1,23 +1,36 @@
 import logo from './logo.svg';
 import './App.css';
+import Products from './components1/Products'
 
-function App() {
+const App=()=> {
+const products = [{
+  id:'p1',
+  title:'Nirma',
+  amount:100,
+  date:new Date(2021,8,10),
+},
+{
+  id:'p2',
+  title:'Sird Excel',
+  amount:200,
+  date:new Date(2021,2,2),
+},
+{
+  id:'p3',
+  title:'Tide',
+  amount:130,
+  date:new Date(2021,12,28),
+},
+{
+  id:'p3',
+  title:'Arial',
+  amount:150,
+  date:new Date(2021,11,2),
+}
+]
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Products items = {products}/>
     </div>
   );
 }
