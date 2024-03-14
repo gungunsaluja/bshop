@@ -1,0 +1,44 @@
+.new-product-form{
+    background-color: #6b1bff;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.7rem;
+    border: 0.1rem solid red;
+    box-shadow: 0.1rem 0.1rem 0.4rem red;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items:baseline;
+    padding-inline: 3rem;
+}
+.new-product_control {
+    display: flex;
+    gap: 1rem;
+}
+.new-product_control input{
+    background-color: black;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.4rem;
+}
+.new-product_button {
+    display: flex;
+    gap: 1rem;
+}
+.new-product_control input{
+    background-color: pink;
+    border-radius: 0.5rem;
+    width: 10rem;
+    padding-inline: .4rem;
+    border: none;
+}
+.new-product-button button{
+   margin-left: 0.1rem;
+}

@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Products from './components1/Products'
+import NewProduct from './components1/NewProduct';
 
 const App=()=> {
 const products = [{
@@ -27,9 +28,15 @@ const products = [{
   amount:150,
   date:new Date(2021,11,2),
 }
-]
+];
+function printProductData(data)
+{
+  console.log("i am indise App.js");
+  console.log(data)
+}
   return (
     <div>
+     <NewProduct  pranaya = {printProductData}/>
       <Products items = {products}/>
     </div>
   );
