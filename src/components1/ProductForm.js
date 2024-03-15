@@ -22,10 +22,11 @@ function ProductForm(props) {
         // console.log(event.target.value)
         // console.log(title);
         // console.log(date);
-    }
+    } 
     function dateChangeHandler(event)
     {
         setDate(event.target.value);
+        // /andr ki value dekhne ke liyee
         // console.log(event.target.value)
     }
     function submitHandler(event){

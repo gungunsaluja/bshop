@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+//useState se state import hota hai
 import ProductDate from './ProductDate';
 
 import Card from './Card';
@@ -9,6 +10,7 @@ const ProductItem = (props) => {
 const [title, setTitle] = useState(props.title);
     //useState output me do value return karta hai
     //why const here and setTitle is one the spot or schedule  
+    // ans = we use const because we dont want to change it directly by we can change it by setter function 
     function clickHandler()
     {
         setTitle("popcorn");
