@@ -17,12 +17,13 @@ root.render(
 
 // React is all about components
 //1--- sir dimag ke liye --custom creation of html is
-//  2--react react me sirf end state btane ki need hai in
-//3-- rwact is a single page application
+//2--react react me sirf end state btane ki need hai in
+//3-- react is a single page application
 //pakagejson ase file hai jisme dependencies,versions and scripts hoti hai
 //whenever are page is loading (html file) then index.js is tha first file which will be executed
 
 // App is the first component in react
 // 
+
 
 reportWebVitals();

@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+ import React, { useState } from 'react';
 
-//useState se state import hota hai
+//useState se state import hota hai useState ek hook hai
 import ProductDate from './ProductDate';
 
 import Card from './Card';
@@ -8,7 +8,7 @@ import Card from './Card';
 import './ProductItem.css';
 const ProductItem = (props) => {
 const [title, setTitle] = useState(props.title);
-    //useState output me do value return karta hai
+  //useState output me do value return karta hai
     //why const here and setTitle is one the spot or schedule  
     // ans = we use const because we dont want to change it directly by we can change it by setter function 
     function clickHandler()
